@@ -1,0 +1,501 @@
+ @font-face {
+  font-family: "Segoe UI Semibold";
+  src: url("fonts/seguisb.ttf");
+     
+  font-family: "Segoe UI Semilight";
+  src: url("fonts/seguisl.ttf");
+     
+  font-family: "Segoe UI";
+  src: url("fonts/segui.ttf");
+
+  font-family: "Segoe UI Semilight Italic";
+  src: url("fonts/seguisli.ttf");
+
+  font-family: "Segoe UI Light";
+  src: url("fonts/seguili.ttf");
+
+  font-family: "Segoe UI Bold";
+  src: url("fonts/seguib.ttf")
+  }
+
+input::-webkit-input-placeholder {
+color: black !important;
+    font-family: Segoe UI Light;
+    font-style: italic;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+    font-family: Segoe UI Light;
+    font-style: italic;
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important; 
+    font-family: Segoe UI Light;
+    font-style: italic;
+}
+ 
+input:-ms-input-placeholder {  
+color: black !important;  
+    font-family: Segoe UI Light;
+    font-style: italic;
+}
+
+.bodylog{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: #F3F3E7;
+}
+
+
+.container2{
+    position:relative;
+    top: -27%;
+    left: 27.5%;
+    width: 43%;
+    height: 44%;
+    background: #F4F4E8;
+    box-shadow: 9px 8px 22px rgba(0, 0, 0, 0.38);
+    border-radius: 22px;
+}
+
+.container1{
+    position: relative;
+    top: 21.5%;
+    left: 29.5%;
+    width: 18.5%;
+    height: 53%;
+    background: #FE6F5F;
+    border-radius: 22px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.ava1{
+    width: 63%;
+    height: 47%;
+    position: absolute;
+    top: 10%;
+    left: 18%;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    top:60%;
+    left:19.5%;
+}
+
+.t1{ 
+    font-family:Segoe UI Semibold;
+    font-size: 140%;
+    color: #FFFF;
+}
+
+.t2{ 
+    position: absolute;
+    top:50%;
+    left: 17.5%;
+    font-family:Segoe UI;
+    font-size: 110%;
+    color: #FFFF;
+}
+
+.bodyin{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F3E7;    
+}
+
+.sidebar{
+    top: 0px;
+    left: -0.5%;
+    width: 13%;
+    height: 100%  ;
+    background: #FE6F5F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 0% 32px 32px 0%;
+}
+
+.ava2{
+    width:9.5%;
+    height: 20%;
+    position: absolute;
+    left:2.2%;
+    top:10%;
+}
+
+
+.dash{
+    width:13%;
+    height: 17%;
+    background:#F4F4E8; 
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 40%;
+    
+}
+.dimg{
+    background: url('../img/dash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.logout{
+    width:13%;
+    height: 17%;
+    background-color: #FE6F5F; 
+    position: absolute;
+    display: block;
+    top: 56.5%;
+    transition: ease-out 0.3s;
+    
+}
+
+.logout:hover{
+    background:#F4F4E8;
+    transition: ease-out 0.3s;
+}
+
+.limg{
+    background: url('../img/signsh.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transition: ease-in 0.3s;
+}
+
+.limg:hover{
+    background: url('../img/signs.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 52%;  
+    transition: ease-in 0.3s;
+}
+
+.hey{
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 180%;
+    color: black;
+    position: absolute;
+    left:20%;
+    top: 1%;
+}
+
+.overview{
+    border-radius: 22px;
+    background: #FE6F5F;
+    box-shadow: 9px 8px 22px #00000038;
+    width: 34%;
+    height: 41%;
+    position: absolute;
+    left: 20%;
+    bottom: 43%;
+}
+
+.temp{
+    background: #F4F4E8;
+    box-shadow: 7px 8px 27px #00000059;
+    border-radius: 22px;
+    opacity: 1; 
+    width:36%;
+    height: 52%;
+    position: absolute;
+    top:26%;
+    left:8.5%;
+}
+
+.humid{
+    background: #F4F4E8;
+    box-shadow: 7px 8px 27px #00000059;
+    border-radius: 22px;
+    opacity: 1; 
+    width:36%;
+    height: 52%;
+    position: absolute;
+    top:26%;
+    left:55%;
+}
+
+.title{
+    font-family: Segoe UI Semibold;
+    font-size: 150%;
+    position: absolute;
+    left: 7%;
+    top:-4%;
+    color: #F7F8F3;
+}
+.titlealt{
+    font-family: Segoe UI Semibold;
+    font-size: 150%;
+    position: absolute;
+    left: 7%;
+    top:-3%;
+    color:black;
+}
+
+.chart{
+    background:transparent linear-gradient(294deg, #F4F4E8 0%, #E8E8DB 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 9px 8px 29px #00000038;;
+    border-radius: 22px;
+    opacity: 1;
+    width:34%;
+    height:33%;
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.date{
+    background: transparent linear-gradient(294deg, #F4F4E8 0%, #E8E8DB 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 9px 8px 29px #00000038;
+    border-radius: 22px;
+    opacity: 1;
+    width:34%;
+    height: 25%;
+    position: absolute;
+    left:56.5%;
+    bottom: 59%;
+    z-index: -1;
+    
+}
+
+#clock{
+    font-family: Segoe UI Semibold;
+    font-weight: bold;
+    font-size:160%;
+    color: white;
+}
+
+.control{
+    background: transparent linear-gradient(294deg, #F4F4E8 0%, #E8E8DB 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 9px 8px 29px #00000038;
+    border-radius: 22px;
+    opacity: 1;
+    width:34%;
+    height:49%;
+    position: absolute;
+    left:56.5%;
+    bottom: 5%;
+}
+
+.col{
+    position: absolute;
+    margin: 10% 0 0 55%;
+   
+}
+
+.input{
+    border-bottom: 2px solid black;
+    width: 110%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: rgba(238, 238, 238, 0) 0% 0% no-repeat padding-box;
+    opacity: 100;
+    z-index: -1;
+    opacity: 1;
+    color: #black;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+
+.loginbtn{
+    background: #FE6F5F 0% 0% no-repeat padding-box;
+    border: 0;
+    border-radius: 37px;
+    opacity: 1;
+    padding: 7% 17%;
+    font-family: Segoe UI Semibold;
+    margin-left: 35%;
+    transition: ease-in 0.3s;
+    color: #FFFF;
+}
+
+.loginbtn:hover{
+    color: #FFFF;
+    background-color: #232323;
+    transition: ease-out 0.3s
+}
+
+.btnon{
+    position: absolute;
+    left: 20%;
+    top:30%;
+    width:25%;
+    height: 14.5%;
+    background :rgba(30, 30, 30, 1) 0% 0% no-repeat padding-box;
+    box-shadow: -3px -5px 8px rgba(41, 41, 41, 1);
+    border-radius: 12px;
+    opacity: 1;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    color :#5FE556;
+    text-decoration: none;
+    font-size: 130%;
+    font-family: Segoe UI;
+    transition: ease-in 0.15;
+}
+
+.btnoff{
+    position: absolute;
+    left: 55%;
+    top:30%;
+    width:25%;
+    height: 14.5%;
+    background :rgba(30, 30, 30, 1) 0% 0% no-repeat padding-box;
+    box-shadow: -3px -5px 8px rgba(41, 41, 41, 1);
+    border-radius: 12px;
+    opacity: 1;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    color :#FC6E5E;
+    text-decoration: none;
+    font-size: 130%;
+    font-family: Segoe UI;
+}
+
+.btnon:hover{
+    background :rgba(30, 30, 30, 0) 0% 0% no-repeat padding-box;
+    box-shadow: -3px -5px 8px rgba(41, 41, 41, 0);
+    transition: ease-out 0.15s;
+}
+
+.btnoff:hover{
+    background :rgba(30, 30, 30, 0) 0% 0% no-repeat padding-box;
+    box-shadow: -3px -5px 8px rgba(41, 41, 41, 0);
+    transition: ease-out 0.15s;
+}
+
+.stat{
+    position: absolute;
+    top:55%;
+    left:45%;
+    font-size: 180%;
+    color: #EEEE;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.stitle{
+    position: absolute;
+    left: 36.5%;
+    top:52%;
+    font-family: Segoe UI;
+}
+.stitlet{
+    position: absolute;
+    left: 38%;
+    top:52%;
+    font-family: Segoe UI;
+}
+
+.num{
+    position: absolute;
+    text-align: center;
+    left:37.5%;
+    top:-10%;
+    font-size: 250%;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.numa{
+    position: absolute;
+    text-align: center;
+    left:24.5%;
+    top:-10%;
+    font-size: 250%;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.not{
+    position: absolute;
+    color: black;
+    font-family: Segoe UI;
+    font-weight: 300;
+    font-size:120%;
+    left:27%;
+    top:36%;
+    
+}
+
+.lar{
+    width: 100%;
+    height:30%;
+    position: absolute;
+    top:25%;
+}
+
+.lar:hover{
+    background: #E1E1C8;
+}
+
+.larimg{
+    width: 13%;
+    height: 60%;
+    position: absolute;
+    left: 9%;
+    top:21%;   
+}
+
+.sab{
+    width: 100%;
+    height:30%;
+    position: absolute;
+    top:50%;
+}
+
+.sab:hover{
+    background: #E1E1C8;
+}
+
+.sabimg{
+    width: 13%;
+    height: 60%;
+    position: absolute;
+    left: 9%;
+    top:21%;   
+}
+
+.chittle{
+    position: absolute;
+    left: 25.5%;
+    top: 7%;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.chtext{
+    position: absolute;
+    left: 25.5%;
+    top:35%;
+    font-family: Segoe UI Light;
+    
+}
